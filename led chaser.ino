@@ -1,8 +1,8 @@
 void setup() {
-  Serial.begin (9600);
-  for (int a = 7 ; a < 12 ; a++)
+  Serial.begin (9600);            // searting serial interface here
+  for (int a = 7 ; a < 12 ; a++)  
   {
-    pinMode (a, OUTPUT);
+    pinMode (a, OUTPUT);          
   }
 }
 void loop() {
